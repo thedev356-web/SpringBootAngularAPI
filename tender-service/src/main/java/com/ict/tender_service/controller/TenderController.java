@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tenders")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://ict-construction.vercel.app")
 public class TenderController {
 
     @Autowired
